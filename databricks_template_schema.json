@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "project_name": {
+      "type": "string",
+      "default": "MLOps Project",
+      "description": "What is the name of the Project ?",
+      "order": 1
+    }
+  },
+  "success_message": "\nYour bundle '{{.project_name}}' has been created."
+}
